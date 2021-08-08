@@ -43,7 +43,7 @@ class PieChartWidget extends StatelessWidget {
                         child: Text(
                           used.toString(),
                           style: TextStyle(
-                            fontSize: 50,
+                            fontSize: constraints.maxWidth * 0.2,
                           ),
                         ),
                       ),
